@@ -1,6 +1,6 @@
 {
   "name": "emr-tabulator-tables",
-  "version": "5.6.3",
+  "version": "5.6.4",
   "description": "Interactive table generation JavaScript library",
   "style": "dist/css/tabulator.css",
   "main": "dist/js/tabulator.js",
