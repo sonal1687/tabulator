@@ -11,6 +11,7 @@ import autocomplete from './editors/autocomplete.js';
 import star from './editors/star.js';
 import progress from './editors/progress.js';
 import tickCross from './editors/tickCross.js';
+import numberWithoutSpin from './editors/number-without-spin.js';
 
 export default {
 	input:input,
@@ -26,4 +27,5 @@ export default {
 	star:star,
 	progress:progress,
 	tickCross:tickCross,
+	numberWithoutSpin:numberWithoutSpin
 };
