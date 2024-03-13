@@ -597,7 +597,6 @@ class Edit extends Module{
 		allowEdit = true,
 		rendered = function(){},
 		popup = null,
-		popupEditor = HTMLElement,
 		element = cell.getElement(),
 		editFinished = false,
 		cellEditor, component, params;

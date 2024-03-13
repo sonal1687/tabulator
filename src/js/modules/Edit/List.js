@@ -1,6 +1,5 @@
 import maskInput from './inputMask.js';
 import urlBuilder from '../Ajax/defaults/urlGenerator.js';
-import Popup from '../../core/tools/Popup.js';
 
 export default class Edit{
 	constructor(editor, cell, onRendered, success, cancel, editorParams){

@@ -8,6 +8,10 @@ export default function(cell, onRendered, success, cancel, editorParams){
 
 	input.setAttribute("type", "number");
 
+	if(editorParams.IsDecimal) {
+		input.classList.add('tabulator-number-without-spin');
+	}
+
 	if(typeof editorParams.max != "undefined"){
 		input.setAttribute("max", editorParams.max);
 	}
